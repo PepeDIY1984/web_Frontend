@@ -7,14 +7,23 @@
   </head>
   <body>
     <p>Formulario para envio a ruta GET</p>
-    <form action="http://localhost:8080/rutaGet" method="GET">
+    <!-- <form action="http://localhost:8080/rutaGet" method="GET"> -->
+    <form
+      action="https://holamundo-backend-node.onrender.com/rutaGet"
+      method="GET"
+    >
       First name: <input type="text" name="nombre" /><br />
       Last name: <input type="text" name="apellido" /><br />
       <button type="submit">Send to backend</button>
     </form>
     <br />
     <p>Formulario para envio a ruta POST</p>
-    <form action="http://localhost:8080/rutaPOST" method="POST">
+
+    <!-- <form action="http://localhost:8080/rutaPOSTconBody" method="POST"> -->
+    <form
+      action="https://holamundo-backend-node.onrender.com/rutaPOSTconBody"
+      method="POST"
+    >
       First name: <input type="text" name="nombre" /><br />
       Last name: <input type="text" name="apellido" /><br />
       <button type="submit">Send to backend</button>
